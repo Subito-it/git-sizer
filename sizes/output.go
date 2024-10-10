@@ -580,7 +580,7 @@ func (s *HistorySize) contents(refGroups []RefGroup) tableContents {
 		S("Biggest checkouts",
 			I("maxCheckoutTreeCount", "Number of directories",
 				"The number of directories in the largest checkout",
-				s.MaxExpandedTreeCountTree, s.MaxExpandedTreeCount, metric, "", 2000),
+				s.MaxExpandedTreeCountTree, s.MaxExpandedTreeCount, metric, "", 3000),
 			I("maxCheckoutPathDepth", "Maximum path depth",
 				"The maximum path depth in any checkout",
 				s.MaxPathDepthTree, s.MaxPathDepth, metric, "", 10),
